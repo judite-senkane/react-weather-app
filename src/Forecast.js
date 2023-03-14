@@ -44,8 +44,8 @@ export default function Forecast() {
 
   return (
     <div className="row Forecast">
-      {forecast.map((day) => (
-        <div className="col weather-forecast">
+      {forecast.map((day, index) => (
+        <div className="col weather-forecast" key={index}>
           <div className="weather-forecast-date">{day.day}</div>
           <img
             src={day.icon}
