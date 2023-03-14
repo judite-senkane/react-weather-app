@@ -1,7 +1,7 @@
 import './App.css';
 import SearchForm from './SearchForm';
 import CurrentWeather from './CurrentWeather';
-import Forecast from "./Forecast";
+import Forecast from './Forecast';
 
 export default function App() {
   return (
@@ -11,6 +11,16 @@ export default function App() {
           <SearchForm />
           <CurrentWeather />
           <Forecast />
+          <div class="footer">
+            <a
+              href="https://github.com/judite-senkane/react-weather-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>
+            by Judite Senkane
+          </div>
         </div>
       </div>
     </div>
