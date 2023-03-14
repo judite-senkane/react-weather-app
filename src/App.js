@@ -19,7 +19,7 @@ export default function App() {
             >
               Open-source code
             </a>
-             by Judite Senkane
+            &nbsp; by Judite Senkane
           </div>
         </div>
       </div>
