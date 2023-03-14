@@ -1,0 +1,24 @@
+.SearchForm .search-form {
+  display: inline;
+}
+.SearchForm .search-button {
+  background-color: #66bfbf;
+  border-radius: 4px;
+  transition: all 150ms ease;
+  color: #fff;
+  padding: 6px 9px;
+  border: 1px solid #66bfbf;
+}
+.SearchForm .search-button:hover {
+  background-color: #66bfbf;
+  border-color: #f76b8a;
+}
+
+.SearchForm .form-control {
+  display: inline;
+  width: 80%;
+  margin: 0;
+}
+.SearchForm .form-control:focus {
+  border-color: #66bfbf;
+}
