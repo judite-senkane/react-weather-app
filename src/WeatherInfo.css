@@ -1,20 +1,20 @@
-.CurrentWeather h1 {
+.WeatherInfo h1 {
   color: #f76b8a;
   margin: 20px 0 10px 0;
 }
-.CurrentWeather h5 {
+.WeatherInfo h5 {
   font-size: 11px;
 }
-.CurrentWeather section {
+.WeatherInfo section {
   margin: 20px 7px 7px 7px;
 }
-.CurrentWeather .degrees {
+.WeatherInfo .degrees {
   font-size: 60px;
   font-weight: 500;
   position: relative;
   top: -10px;
 }
-.CurrentWeather .type-degrees {
+.WeatherInfo .type-degrees {
   font-size: 30px;
   font-weight: 500;
   position: relative;
@@ -23,22 +23,22 @@
   color: #f76b8a;
 }
 
-.CurrentWeather .date-and-time {
+.WeatherInfo .date-and-time {
   font-weight: 350;
   font-size: 20px;
 }
-.CurrentWeather .weather-icon {
+.WeatherInfo .weather-icon {
   font-size: 100px;
   color: #f76b8a;
 }
 
-.CurrentWeather .weather {
+.WeatherInfo .weather {
   font-size: 20px;
 }
-.CurrentWeather .weather::first-letter {
+.WeatherInfo .weather::first-letter {
   text-transform: capitalize;
 }
-.CurrentWeather .wind,
-.CurrentWeather .humidity {
+.WeatherInfo .wind,
+.WeatherInfo .humidity {
   font-size: 12px;
 }

@@ -1,7 +1,7 @@
-.SearchForm .search-form {
+.WeatherMain .search-form {
   display: inline;
 }
-.SearchForm .search-button {
+.WeatherMain .search-button {
   background-color: #66bfbf;
   border-radius: 4px;
   transition: all 150ms ease;
@@ -9,16 +9,16 @@
   padding: 6px 9px;
   border: 1px solid #66bfbf;
 }
-.SearchForm .search-button:hover {
+.WeatherMain .search-button:hover {
   background-color: #66bfbf;
   border-color: #f76b8a;
 }
 
-.SearchForm .form-control {
+.WeatherMain .form-control {
   display: inline;
   width: 80%;
   margin: 0;
 }
-.SearchForm .form-control:focus {
+.WeatherMain .form-control:focus {
   border-color: #66bfbf;
 }

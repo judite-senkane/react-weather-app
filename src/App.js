@@ -1,6 +1,5 @@
 import './App.css';
-import SearchForm from './SearchForm';
-import CurrentWeather from './CurrentWeather';
+import WeatherMain from './WeatherMain';
 import Forecast from './Forecast';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -9,10 +8,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="main-body">
-          <SearchForm />
-          <CurrentWeather defaultCity="Paris" />
+          <WeatherMain defaultCity="Paris" />
           <Forecast />
-          <div class="footer">
+          <div className="footer">
             <a
               href="https://github.com/judite-senkane/react-weather-app.git"
               target="_blank"
