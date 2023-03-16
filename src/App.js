@@ -2,6 +2,7 @@ import './App.css';
 import SearchForm from './SearchForm';
 import CurrentWeather from './CurrentWeather';
 import Forecast from './Forecast';
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       <div className="container">
         <div className="main-body">
           <SearchForm />
-          <CurrentWeather />
+          <CurrentWeather defaultCity="Paris" />
           <Forecast />
           <div class="footer">
             <a
