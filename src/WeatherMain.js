@@ -58,7 +58,7 @@ export default function CurrentMain(props) {
             </span>
           </div>
         </div>
-        <WeatherInfo data={weatherData} />;
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {

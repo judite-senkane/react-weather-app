@@ -13,12 +13,12 @@ export default function WeatherInfo(props) {
       </h1>
       <section>
         <div className="row">
-          <div className="col-6 info">
+          <div className="col-7 info">
             <div className="weather">{props.data.description}</div>
             <div className="wind">Wind: {Math.round(props.data.wind)} m/s</div>
             <div className="humidity">Humidity: {props.data.humidity}%</div>
           </div>
-          <div className="col-6 degrees">
+          <div className="col-5 degrees">
             <span>{Math.round(props.data.temperature)}</span>
             <span className="type-degrees">ºC</span>
             <img
