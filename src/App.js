@@ -1,6 +1,5 @@
 import './App.css';
 import WeatherMain from './WeatherMain';
-import Forecast from './Forecast';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function App() {
@@ -8,8 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="main-body">
-          <WeatherMain defaultCity="Paris" />
-          <Forecast />
+          <WeatherMain defaultCity="Riga" />
           <div className="footer">
             <a
               href="https://github.com/judite-senkane/react-weather-app.git"
