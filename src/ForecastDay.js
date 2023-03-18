@@ -12,7 +12,6 @@ export default function ForecastDay(props) {
 
   function day() {
     const date = new Date(props.data.time * 1000);
-    console.log(date);
     const day = date.getDay();
     const days = [
       'Sunday',

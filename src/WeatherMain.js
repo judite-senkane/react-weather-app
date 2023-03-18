@@ -52,11 +52,6 @@ export default function CurrentMain(props) {
                 className="search-button shadow"
               />
             </form>
-            <span>
-              <button className="search-button shadow">
-                <i className="fa-solid fa-location-pin"></i>
-              </button>
-            </span>
           </div>
         </div>
         <WeatherInfo data={weatherData} />

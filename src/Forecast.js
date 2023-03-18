@@ -15,9 +15,12 @@ export default function Forecast(props) {
     setLoaded(true);
     setForecast(response.data.daily);
   }
+  function load() {
+    const apiKey = 'f9feaa2306a84023f1oae3tfc99d5be3';
+    const apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${props.city}&key=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+  }
   if (loaded) {
-    console.log(forecast);
-    console.log(props.city);
     return (
       <div className="Forecast">
         <div className="row">
@@ -36,8 +39,7 @@ export default function Forecast(props) {
       </div>
     );
   } else {
-    const apiKey = 'f9feaa2306a84023f1oae3tfc99d5be3';
-    const apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${props.city}&key=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse);
+    load();
+    return null;
   }
 }
