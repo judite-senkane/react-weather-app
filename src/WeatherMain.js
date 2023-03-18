@@ -3,6 +3,7 @@ import './WeatherMain.css';
 import axios from 'axios';
 import WeatherInfo from './WeatherInfo';
 import { MagnifyingGlass } from 'react-loader-spinner';
+import Forecast from './Forecast';
 
 export default function CurrentMain(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -59,6 +60,7 @@ export default function CurrentMain(props) {
           </div>
         </div>
         <WeatherInfo data={weatherData} />
+        <Forecast city={weatherData.city} />
       </div>
     );
   } else {

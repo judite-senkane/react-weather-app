@@ -15,10 +15,10 @@
   top: -10px;
 }
 .WeatherInfo .type-degrees {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   position: relative;
-  top: -25px;
+  top: -30px;
   text-decoration: none;
   color: #4e4d55;
 }

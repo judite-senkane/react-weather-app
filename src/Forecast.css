@@ -1,0 +1,21 @@
+.Forecast .weather-forecast {
+  padding: 15px 15px;
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: #66bfbf;
+}
+
+.Forecast .weather-forecast-date {
+  padding: 5px 0;
+  font-weight: 600;
+}
+.Forecast .forecast-temperature-max {
+  font-weight: 600;
+}
+.Forecast .forecast-temperature-min {
+  margin-left: 4px;
+}
+.Forecast .weather-forecast-temperatures {
+  margin-top: 5px;
+}
